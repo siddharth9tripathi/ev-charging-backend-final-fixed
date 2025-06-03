@@ -1,7 +1,7 @@
 // backend/routes/stationRoutes.js
 const express = require('express');
 const router = express.Router();
-const Station = require('../models/station');
+const Station = require('../models/Station');
 const { findShortestPath } = require('../utils/shortestPath');
 
 // Helper to build graph from station data
